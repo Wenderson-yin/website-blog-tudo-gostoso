@@ -1,0 +1,45 @@
+
+h5{
+    text-align: center;
+}
+strong{
+    font: bold small-caps 15px Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 18px;
+    font-style: italic;
+    line-height: 05px;
+}
+.Ingredientes,
+.modo-de-preparo{
+    display: inline-block;
+    width: 40%;
+    padding: 10px 20px;
+    min-height: 200px;
+    vertical-align: top;
+    position: relative;
+}
+.Ingredintes h2,
+.modo-de-preparo h2{
+    font-size: 20px;
+}
+.Ingredientes ul li,
+.modo-de-preparo ol li{
+    padding: 10px 0 5px;
+}
+.modo-de-preparo ol li::marker{
+    color: #ff6a28;
+    font-style: oblique;
+}
+.Ingredientes ::marker {color:#ff6a28}
+.inline figure, .inline h1{
+    display: inline-block;
+    line-height: 05px;
+    font-family: 'Times New Roman', Times, serif;
+}
+figure{
+    text-align: center;
+}
+.container{ 
+    text-align: center; 
+}
